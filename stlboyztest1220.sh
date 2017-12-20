@@ -215,17 +215,17 @@ group_maker()
      echo "Even Stevens! Easy Peasey!"   
      echo ""
      
-     sh matchup_main $(($div_n - 1)) "${group1[@]}" 
-     sh matchup_main $(($div_n - 1)) "${arr[@]}"
+      matchup_main $(($div_n - 1)) "${group1[@]}" 
+      matchup_main $(($div_n - 1)) "${arr[@]}"
  
   else
      echo ""
      echo "Hmm! Something feels ODD here!"
      echo "Group 1 with less players will play additional match with one randonly assigned opponent from Group 1"
      echo ""
-     sh matchup_main $(($div_n)) "${arr[@]}"
+     matchup_main $(($div_n)) "${arr[@]}"
 
-     sh matchup_main $(($div_n - 1)) "${group1[@]}"
+     matchup_main $(($div_n - 1)) "${group1[@]}"
 
      echo ""
      echo ""
@@ -270,7 +270,7 @@ do
           echo "Give me matches per players. Remember number of matches can not be equal or more than players count"
           read m_limit
           echo ""
-          sh matchup_main $m_limit "${local_arr[@]}"
+           matchup_main $m_limit "${local_arr[@]}"
            break;;
 
    [2]* ) echo "Okay, Bringing on Group of Death formula!"
