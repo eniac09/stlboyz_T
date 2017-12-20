@@ -96,6 +96,7 @@ fi
 }
 
 matchup_main()
+{
 args_p=0
 arr=""
 for i in "$@"
