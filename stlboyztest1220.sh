@@ -3,10 +3,10 @@ usage()
 {
 echo "#######################################################################################"
 echo "# FIFASTLBOYZ Tournament random matchup script"
-echo "# usage - sh <Script_Name> 
-echo "# Follow on screen steps 
-echo "# You will get groups and matches on screen
-echo "# 
+echo "# usage - sh <Script_Name> "
+echo "# Follow on screen steps "
+echo "# You will get groups and matches on screen"
+echo "# "
 echo "#######################################################################################"
 }
 check_matches_quota()
